@@ -1,5 +1,6 @@
 from dataclasses import dataclass
 
+
 @dataclass
 class user:
     id: int
@@ -7,4 +8,3 @@ class user:
     first_name: str
     last_name: str
     age: int
-
